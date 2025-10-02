@@ -3,7 +3,7 @@ from pypdf import PdfReader
 # creating a pdf reader object
 reader = PdfReader('doc.pdf')
 
-# printing number of pages in pdf file
+# printing nujkmber of pages in pdf file
 print(len(reader.pages))
 
 # creating a page object
