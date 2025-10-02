@@ -16,7 +16,7 @@ c.drawString(200, 720, "Großer Titel")
 c.drawString(200, 320, "Großer Titel")
 
 c.setFont("Helvetica", 12)
-c.drawString(200, 600, "Normaler Text in Standard-Schriftgröße")
+c.drawString(200, 600, "Normaler Text in Standavcbcvbrd-Schriftgröße")
 
 # Linie zeichnen
 c.line(100, 580, 500, 580)
