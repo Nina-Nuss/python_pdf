@@ -1,6 +1,6 @@
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
-
+#comentar
 # PDF-Dokument erstellen test
 c = canvas.Canvas("doc.pdf", pagesize=A4)  # Breite x Höhe in Punkten (1 Punkt = 1/72 Zoll)
 
