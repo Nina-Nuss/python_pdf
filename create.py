@@ -1,8 +1,8 @@
 from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import letter
+from reportlab.lib.pagesizes import A4
 
 # PDF-Dokument erstellen
-c = canvas.Canvas("doc.pdf", pagesize=(200, 560))  # Breite x Höhe in Punkten (1 Punkt = 1/72 Zoll)
+c = canvas.Canvas("doc.pdf", pagesize=A4)  # Breite x Höhe in Punkten (1 Punkt = 1/72 Zoll)
 
 # Text hinzufügen
 c.drawString(200, 700, "Erstellen eines PDFs mit ReportLab")
