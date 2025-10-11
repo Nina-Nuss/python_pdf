@@ -20,9 +20,9 @@ c.drawString(80, 760, "Vorbereitung:")
 c.setFont("Helvetica", 9)
 
 c.drawString(100, 740, "1: Komandozeile: pip install reportlab")
-c.drawString(100, 720, "2: Texteditor: from reportlab.pdfgen import canvas from reportlab.lib.pagesizes import A4")
+c.drawString(100, 720, "2: Python-Datei: from reportlab.pdfgen import canvas from reportlab.lib.pagesizes import A4")
 
-c.drawString(100, 700, "3: Texteditor: c = canvas.Canvas('dateiname.pdf', pagesize=A4)")
+c.drawString(100, 700, "3: Python-Datei: c = canvas.Canvas('dateiname.pdf', pagesize=A4)")
 c.drawString(380, 700, "# erstellt ein neues PDF-Dokument")
 
 
@@ -61,7 +61,7 @@ c.setTitle("Mein PDF")         # PDF-Titel setzen
 c.setAuthor("Max Mustermann")  # PDF-Autor setzen
 c.setSubject("Wichtiges Dokument") # PDF-Betreff setzen
 
-c.drawString(80, 510, "URL: https://docs.reportlab.com/")
+c.drawString(80, 510, "Quelle: https://docs.reportlab.com/")
 
 # PDF speichern
 c.save()
