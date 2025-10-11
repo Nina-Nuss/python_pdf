@@ -1,9 +1,6 @@
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 
-
-
-
 # PDF-Dokument erstellen
 c = canvas.Canvas("doc.pdf", pageSize=A4)  # Breite x Höhe in Punkten (1 Punkt = 1/72 Zoll)
 
@@ -11,31 +8,42 @@ c = canvas.Canvas("doc.pdf", pageSize=A4)  # Breite x Höhe in Punkten (1 Punkt 
 c.setFont("Helvetica-Bold", 16)
 c.drawString(100, 800, "Erstellen eines PDFs mit ReportLab")
 
+
+
 # Linie unter der Überschrift
 c.line(100, 780, 500, 780)
 
+c.setFont("Helvetica-Bold", 12)
+
+c.drawString(100, 760, "Vorbereitung:")
+
+c.setFont("Helvetica", 9)
+
+c.drawString(120, 740, "1: Installation Komandozeile: pip install reportlab")
+c.drawString(120, 720, "2: from reportlab.pdfgen import canvas from reportlab.lib.pagesizes import A4")
+
+c.drawString(120, 700, "3: c = canvas.Canvas('dateiname.pdf', pagesize=A4) erstellt ein neues PDF-Dokument")
+
+
 # Untertitel
 c.setFont("Helvetica-Bold", 12)
-c.drawString(100, 760, "Wichtige Funktionen von ReportLab:")
+c.drawString(100, 680, "Wichtige Funktionen von ReportLab:")
 
 # Informationen in logischer Reihenfolge
 c.setFont("Helvetica", 9)
-c.drawString(120, 740, "-  Installation Komandozeile: pip install reportlab")
-c.drawString(120, 720, "-  from reportlab.pdfgen import canvas from reportlab.lib.pagesizes import A4")
 
-c.drawString(120, 700, "-  c = canvas.Canvas('dateiname.pdf', pagesize=A4) erstellt ein neues PDF-Dokument")
-c.drawString(120, 680, "-  c.setFont(schriftart, größe) setzt die Schriftart und Größe, z.B. ('Helvetica', 12)")
-c.drawString(120, 660, "-  c.drawString(x, y, 'text') fügt Text an der Position x, y hinzu, z.B. (100, 700, 'Hallo Welt')")
+c.drawString(120, 660, "-  c.setFont(schriftart, größe) setzt die Schriftart und Größe, z.B. ('Helvetica', 12)")
+c.drawString(120, 640, "-  c.drawString(x, y, 'text') fügt Text an der Position x, y hinzu, z.B. (100, 700, 'Hallo Welt')")
 
 # Farbiges Beispiel
 c.setFillColorRGB(0, 0, 1)  # Farbe auf Blau setzen (RGB-Werte von 0 bis 1)
-c.drawString(120, 640, "-  c.setFillColorRGB(rot, grün, blau) setzt die Füllfarbe für den Text, z.B. (0, 0, 1) für Blau")
+c.drawString(120, 620, "-  c.setFillColorRGB(rot, grün, blau) setzt die Füllfarbe für den Text, z.B. (0, 0, 1) für Blau")
 
 # Farbe zurücksetzen
 c.setFillColorRGB(0, 0, 0)  # Farbe auf Schwarz zurücksetzen
-c.drawString(120, 620, "-  c.line(x1, y1, x2, y2) zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
+c.drawString(120, 600, "-  c.line(x1, y1, x2, y2) zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
 
-c.drawString(100, 580, "URL: https://docs.reportlab.com/")
+c.drawString(100, 560, "URL: https://docs.reportlab.com/")
 
 # PDF speichern
 c.save()
