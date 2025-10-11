@@ -34,10 +34,10 @@ c.drawString(80, 680, "Wichtige Funktionen von ReportLab:")
 c.setFont("Helvetica", 9)
 
 c.drawString(100, 660, "-  c.setFont(schriftart, größe) ")
-c.drawString(280, 660, "# setzt die Schriftart und Größe, z.B. ('Helvetica' oder 'Helvetica-Bold', 12)")
+c.drawString(270, 660, "# Setzt die Schriftart und Größe, z.B. ('Helvetica' oder 'Helvetica-Bold', 12)")
 
 c.drawString(100, 640, "-  c.drawString(x, y, 'text')")
-c.drawString(280, 640, "# fügt Text an der Position x, y hinzu, z.B. (100, 700, 'Hallo Welt')")
+c.drawString(270, 640, "# Fügt Text an der Position x, y hinzu, z.B. (100, 700, 'Hallo Welt')")
 
  # erstellt ein neues PDF-Dokument
 
@@ -45,17 +45,21 @@ c.drawString(280, 640, "# fügt Text an der Position x, y hinzu, z.B. (100, 700,
 # Farbiges Beispiel
 c.setFillColorRGB(0, 0, 1)  # Farbe auf Blau setzen (RGB-Werte von 0 bis 1)
 c.drawString(100, 620, "-  c.setFillColorRGB(rot, grün, blau) ")
-c.drawString(280, 620, "# setzt die Füllfarbe für den Text, z.B. (0, 0, 1) für Blau")
+c.drawString(270, 620, "# Setzt die Füllfarbe für den Text, z.B. (0, 0, 1) für Blau")
 
 # Farbe zurücksetzen
 c.setFillColorRGB(0, 0, 0)  # Farbe auf Schwarz zurücksetzen
 c.drawString(100, 600, "-  c.line(x1, y1, x2, y2)")
-c.drawString(280, 600, "# zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
+c.drawString(270, 600, "# Zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
 
 c.drawString(80, 570, "Reminder:")
 c.drawString(80, 560, "x: Links, Rechts (Horizontal-Achse)")
 c.drawString(80, 550, "y: Unten, Oben (Vertikal-Achse)")
 
+
+c.setTitle("Mein PDF")         # PDF-Titel setzen
+c.setAuthor("Max Mustermann")  # PDF-Autor setzen
+c.setSubject("Wichtiges Dokument") # PDF-Betreff setzen
 
 c.drawString(80, 510, "URL: https://docs.reportlab.com/")
 
