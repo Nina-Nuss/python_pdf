@@ -49,10 +49,8 @@ c.setFillColorRGB(0, 0, 0)  # Farbe auf Schwarz zurücksetzen
 c.drawString(120, 600, "-  c.line(x1, y1, x2, y2)")
 c.drawString(280, 600, "# zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
 
-c.drawString(100, 570, "reminder:    x: Links, Rechts (Horizontal-Achse)     y: Unten, Oben (Vertikal-Achse)")
-c.setFont("Helvetica", 10)
-text = "(๑´• .̫ •ू`๑)"
-c.drawString(100, 500, text)
+c.drawString(100, 570, "Reminder:    x: Links, Rechts (Horizontal-Achse)     y: Unten, Oben (Vertikal-Achse)")
+
 
 c.drawString(100, 540, "URL: https://docs.reportlab.com/")
 
