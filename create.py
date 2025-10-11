@@ -53,8 +53,8 @@ c.drawString(100, 600, "-  c.line(x1, y1, x2, y2)")
 c.drawString(270, 600, "# Zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
 
 c.drawString(80, 570, "Reminder:")
-c.drawString(80, 560, "x: Links, Rechts (Horizontal-Achse)")
-c.drawString(80, 550, "y: Unten, Oben (Vertikal-Achse)")
+c.drawString(80, 560, "x = ←  →  (Horizontal-Achse)")
+c.drawString(80, 550, "y =   ↑  ↓   (Vertikal-Achse)")
 
 
 c.setTitle("Mein PDF")         # PDF-Titel setzen
