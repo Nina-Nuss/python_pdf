@@ -25,7 +25,7 @@ c.drawString(120, 720, "-  from reportlab.pdfgen import canvas from reportlab.li
 
 c.drawString(120, 700, "-  c = canvas.Canvas('dateiname.pdf', pagesize=A4) erstellt ein neues PDF-Dokument")
 c.drawString(120, 680, "-  c.setFont(schriftart, größe) setzt die Schriftart und Größe, z.B. ('Helvetica', 12)")
-c.drawString(120, 660, "-  c.drawString(x, y, 'text') fügt Text an der Position (x, y) hinzu, z.B. (100, 700, 'Hallo Welt')")
+c.drawString(120, 660, "-  c.drawString(x, y, 'text') fügt Text an der Position x, y hinzu, z.B. (100, 700, 'Hallo Welt')")
 
 # Farbiges Beispiel
 c.setFillColorRGB(0, 0, 1)  # Farbe auf Blau setzen (RGB-Werte von 0 bis 1)
