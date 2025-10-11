@@ -1,27 +1,36 @@
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 
-# PDF-Dokument erstellen test
-c = canvas.Canvas("doc.pdf", pagesize=A4)  # Breite x Höhe in Punkten (1 Punkt = 1/72 Zoll)
-#TEST
-# Text hinzufügen
-c.drawString(200, 700, "Erstellen eines PDFs mit ReportLab")
-c.drawString(100, 680, "in der Kommandozeile eingeben: pip install reportlab")
-c.drawString(100, 660, "Standard Letter Größe: 612 x 792 Punkte")
+# PDF-Dokument erstellen
+c = canvas.Canvas("doc.pdf", pageSize=A4)  # Breite x Höhe in Punkten (1 Punkt = 1/72 Zoll)
 
-# Weitere Texte und Formatierungen
+# Überschrift
 c.setFont("Helvetica-Bold", 16)
-c.drawString(200, 620, "Großer Tihgfdölkhhgtel")
-c.drawString(200, 720, "Großer Titel")
-c.drawString(200, 320, "Großer Titel")
+c.drawString(100, 800, "Erstellen eines PDFs mit ReportLab")
 
-c.setFont("Helvetica", 12)
-c.drawString(200, 600, "Normaler Text in Standavcbcvbrd-Schriftgröße")
+# Linie unter der Überschrift
+c.line(100, 780, 500, 780)
 
-# Linie zeichnen
-c.line(100, 580, 500, 580)
+# Untertitel
+c.setFont("Helvetica-Bold", 12)
+c.drawString(100, 760, "Wichtige Funktionen von ReportLab:")
+
+# Informationen in logischer Reihenfolge
+c.setFont("Helvetica", 9)
+c.drawString(120, 740, "-  Installation Komandozeile: pip install reportlab")
+c.drawString(120, 720, "-  c = canvas.Canvas('dateiname.pdf', pagesize=A4) erstellt ein neues PDF-Dokument")
+c.drawString(120, 700, "-  c.setFont(schriftart, größe) setzt die Schriftart und Größe, z.B. ('Helvetica', 12)")
+c.drawString(120, 680, "-  c.drawString(x, y, 'text') fügt Text an der Position (x, y) hinzu, z.b (100, 700, 'Hallo Welt')")
+
+# Farbiges Beispiel
+c.setFillColorRGB(0, 0, 1)  # Farbe auf Blau setzen (RGB-Werte von 0 bis 1)
+c.drawString(120, 660, "-  c.setFillColorRGB(rot, grün, blau) setzt die Füllfarbe für den Text, z.B. (0, 0, 1) für Blau")
+
+# Farbe zurücksetzen
+c.setFillColorRGB(0, 0, 0)  # Farbe auf Schwarz zurücksetzen
+c.drawString(120, 640, "-  c.line(x1, y1, x2, y2) zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
+
 
 # PDF speichern
 c.save()
 
-print("✅ PDF 'doc.pdf' wurde erfolgreich erstellt!")
