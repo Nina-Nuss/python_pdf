@@ -34,11 +34,14 @@ c.drawString(100, 680, "Wichtige Funktionen von ReportLab:")
 c.setFont("Helvetica", 9)
 
 c.drawString(120, 660, "-  c.setFont(schriftart, größe) ")
-c.drawString(280, 660, "# setzt die Schriftart und Größe, z.B. ('Helvetica', 12)")
+c.drawString(280, 660, "# setzt die Schriftart und Größe, z.B. ('Helvetica' oder 'Helvetica-Bold', 12)")
 
 c.drawString(120, 640, "-  c.drawString(x, y, 'text')")
 c.drawString(280, 640, "# fügt Text an der Position x, y hinzu, z.B. (100, 700, 'Hallo Welt')")
 
+ # erstellt ein neues PDF-Dokument
+
+ # erstellt ein neues PDF-Dokument
 # Farbiges Beispiel
 c.setFillColorRGB(0, 0, 1)  # Farbe auf Blau setzen (RGB-Werte von 0 bis 1)
 c.drawString(120, 620, "-  c.setFillColorRGB(rot, grün, blau) ")
@@ -53,7 +56,8 @@ c.drawString(100, 570, "Reminder:")
 c.drawString(100, 560, "x: Links, Rechts (Horizontal-Achse)")
 c.drawString(100, 550, "y: Unten, Oben (Vertikal-Achse)")
 
-c.drawString(100, 530, "URL: https://docs.reportlab.com/")
+
+c.drawString(100, 540, "URL: https://docs.reportlab.com/")
 
 # PDF speichern
 c.save()
