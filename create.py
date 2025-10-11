@@ -19,11 +19,11 @@ c.drawString(100, 760, "Vorbereitung:")
 
 c.setFont("Helvetica", 9)
 
-c.drawString(120, 740, "1: Installation Komandozeile: pip install reportlab")
-c.drawString(120, 720, "2: from reportlab.pdfgen import canvas from reportlab.lib.pagesizes import A4")
+c.drawString(120, 740, "1: Komandozeile: pip install reportlab")
+c.drawString(120, 720, "2: Texteditor: from reportlab.pdfgen import canvas from reportlab.lib.pagesizes import A4")
 
-c.drawString(120, 700, "3: c = canvas.Canvas('dateiname.pdf', pagesize=A4)")
-c.drawString(350, 700, "# erstellt ein neues PDF-Dokument")
+c.drawString(120, 700, "3: Texteditor: c = canvas.Canvas('dateiname.pdf', pagesize=A4)")
+c.drawString(380, 700, "# erstellt ein neues PDF-Dokument")
 
 
 # Untertitel
@@ -49,10 +49,11 @@ c.setFillColorRGB(0, 0, 0)  # Farbe auf Schwarz zurücksetzen
 c.drawString(120, 600, "-  c.line(x1, y1, x2, y2)")
 c.drawString(280, 600, "# zeichnet eine Linie zwischen zwei Punkten, z.B. (100, 600, 400, 600)")
 
-c.drawString(100, 570, "Reminder:    x: Links, Rechts (Horizontal-Achse)     y: Unten, Oben (Vertikal-Achse)")
+c.drawString(100, 570, "Reminder:")
+c.drawString(100, 560, "x: Links, Rechts (Horizontal-Achse)")
+c.drawString(100, 550, "y: Unten, Oben (Vertikal-Achse)")
 
-
-c.drawString(100, 540, "URL: https://docs.reportlab.com/")
+c.drawString(100, 530, "URL: https://docs.reportlab.com/")
 
 # PDF speichern
 c.save()
