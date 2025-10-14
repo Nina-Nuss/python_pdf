@@ -1,0 +1,55 @@
+{
+  "Person": "Hans",
+  "einkaufsliste": [
+    {
+      "id": 1,
+      "produkt": "Milch",
+      "kategorie": "Getränke",
+      "menge": 2,
+      "einheit": "Liter",
+      "preis_pro_einheit": 1.29,
+      "gekauft": false ,
+      "Rabatt": "10%"
+    },
+    {
+      "id": 2,
+      "produkt": "Brot",
+      "kategorie": "Backwaren",
+      "menge": 1,
+      "einheit": "Stück",
+      "preis_pro_einheit": 2.19,
+      "gekauft": true,
+      "Rabatt": "5%"
+    },
+    {
+      "id": 3,
+      "produkt": "Äpfel",
+      "kategorie": "Obst",
+      "menge": 6,
+      "einheit": "Stück",
+      "preis_pro_einheit": 0.35,
+      "gekauft": false,
+      "Rabatt": "20%"
+    },
+    {
+      "id": 4,
+      "produkt": "Käse",
+      "kategorie": "Milchprodukte",
+      "menge": 1,
+      "einheit": "Packung",
+      "preis_pro_einheit": 2.49,
+      "gekauft": true,
+      "Rabatt": "0%"
+    },
+    {
+      "id": 5,
+      "produkt": "Hähnchenbrustfilet",
+      "kategorie": "Fleisch",
+      "menge": 500,
+      "einheit": "Gramm",
+      "preis_pro_einheit": 6.99,
+      "gekauft": true,
+      "Rabatt": "15%"
+    }
+  ]
+}
