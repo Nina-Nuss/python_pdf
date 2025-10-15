@@ -1,5 +1,13 @@
 {
-  "Person": "Hans",
+  "person": {
+    "name": "Hans",
+    "nachname": "Peter",
+    "wohnort": "Jede Strasse 123",
+    "postleitzahl": 12345,
+    "stadt": "Jede Stadt"
+  },
+  "vertragsnummer":12345,
+  "verkäufer": "Max",
   "einkaufsliste": [
     {
       "id": 1,
@@ -8,7 +16,6 @@
       "menge": 2,
       "einheit": "Liter",
       "preis_pro_einheit": 1.29,
-      "gekauft": false ,
       "Rabatt": "10%"
     },
     {
@@ -18,7 +25,6 @@
       "menge": 1,
       "einheit": "Stück",
       "preis_pro_einheit": 2.19,
-      "gekauft": true,
       "Rabatt": "5%"
     },
     {
@@ -27,8 +33,7 @@
       "kategorie": "Obst",
       "menge": 6,
       "einheit": "Stück",
-      "preis_pro_einheit": 0.35,
-      "gekauft": false,
+      "preis_pro_einheit": 0.40,
       "Rabatt": "20%"
     },
     {
@@ -38,17 +43,15 @@
       "menge": 1,
       "einheit": "Packung",
       "preis_pro_einheit": 2.49,
-      "gekauft": true,
       "Rabatt": "0%"
     },
     {
       "id": 5,
       "produkt": "Hähnchenbrustfilet",
       "kategorie": "Fleisch",
-      "menge": 500,
+      "menge": 2,
       "einheit": "Gramm",
       "preis_pro_einheit": 6.99,
-      "gekauft": true,
       "Rabatt": "15%"
     }
   ]
