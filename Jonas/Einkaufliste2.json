@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "Max",
+    "nachname": "Mustermann",
+    "wohnort": "Musterstraße 123",
+    "postleitzahl": 23455,
+    "stadt": "Musterstadt"
+  },
+  "vertragsnummer": 23455,
+  "verkäufer": "Lina",
+  "einkaufsliste": [
+    {
+      "id": 1,
+      "produkt": "Bananen",
+      "kategorie": "Obst",
+      "menge": 5,
+      "einheit": "Stück",
+      "preis_pro_einheit": 0.35
+    },
+    {
+      "id": 2,
+      "produkt": "Vollkornbrot",
+      "kategorie": "Backwaren",
+      "menge": 1,
+      "einheit": "Laib",
+      "preis_pro_einheit": 2.99
+    },
+    {
+      "id": 3,
+      "produkt": "Orangensaft",
+      "kategorie": "Getränke",
+      "menge": 1,
+      "einheit": "Liter",
+      "preis_pro_einheit": 2.49
+    },
+    {
+      "id": 4,
+      "produkt": "Nudeln",
+      "kategorie": "Teigwaren",
+      "menge": 2,
+      "einheit": "Packung",
+      "preis_pro_einheit": 1.19
+    },
+    {
+      "id": 5,
+      "produkt": "Tomaten",
+      "kategorie": "Gemüse",
+      "menge": 500,
+      "einheit": "Gramm",
+      "preis_pro_einheit": 3.99
+    }
+  ]
+}
