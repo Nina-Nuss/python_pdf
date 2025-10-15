@@ -15,8 +15,7 @@
       "kategorie": "Getränke",
       "menge": 2,
       "einheit": "Liter",
-      "preis_pro_einheit": 1.29,
-      "Rabatt": "10%"
+      "preis_pro_einheit": 1.29
     },
     {
       "id": 2,
@@ -24,8 +23,7 @@
       "kategorie": "Backwaren",
       "menge": 1,
       "einheit": "Stück",
-      "preis_pro_einheit": 2.19,
-      "Rabatt": "5%"
+      "preis_pro_einheit": 2.19
     },
     {
       "id": 3,
@@ -33,8 +31,7 @@
       "kategorie": "Obst",
       "menge": 6,
       "einheit": "Stück",
-      "preis_pro_einheit": 0.40,
-      "Rabatt": "20%"
+      "preis_pro_einheit": 0.40
     },
     {
       "id": 4,
@@ -42,8 +39,7 @@
       "kategorie": "Milchprodukte",
       "menge": 1,
       "einheit": "Packung",
-      "preis_pro_einheit": 2.49,
-      "Rabatt": "0%"
+      "preis_pro_einheit": 2.49
     },
     {
       "id": 5,
@@ -51,8 +47,7 @@
       "kategorie": "Fleisch",
       "menge": 2,
       "einheit": "Gramm",
-      "preis_pro_einheit": 6.99,
-      "Rabatt": "15%"
+      "preis_pro_einheit": 6.99
     }
   ]
 }
