@@ -10,7 +10,11 @@ c.drawString(80, 800, "Erstellen eines PDFs mit ReportLab")
 
 
 
+<<<<<<< HEAD
 # Linie unter der Überschrift
+=======
+# Linie unter der Überschfgfgjhghfgrift
+>>>>>>> jonas
 c.line(80, 780, 500, 780)
 
 c.setFont("Helvetica-Bold", 12)
