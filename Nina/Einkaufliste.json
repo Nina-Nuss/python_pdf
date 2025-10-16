@@ -1,0 +1,54 @@
+{
+  "person": {
+    "id" : 1,
+    "name": "Hans",
+    "nachname": "Peter",
+    "wohnort": "Jede Strasse 123",
+    "postleitzahl": 12345,
+    "stadt": "Jede Stadt"
+  },
+  "vertragsnummer":12345,
+  "verkäufer": "Max",
+  "einkaufsliste": [
+    {
+      "id": 1,
+      "produkt": "Milch",
+      "kategorie": "Getränke",
+      "menge": 2,
+      "einheit": "Liter",
+      "preis_pro_einheit": 1.29
+    },
+    {
+      "id": 2,
+      "produkt": "Brot",
+      "kategorie": "Backwaren",
+      "menge": 1,
+      "einheit": "Stück",
+      "preis_pro_einheit": 2.19
+    },
+    {
+      "id": 3,
+      "produkt": "Äpfel",
+      "kategorie": "Obst",
+      "menge": 6,
+      "einheit": "Stück",
+      "preis_pro_einheit": 0.40
+    },
+    {
+      "id": 4,
+      "produkt": "Käse",
+      "kategorie": "Milchprodukte",
+      "menge": 1,
+      "einheit": "Packung",
+      "preis_pro_einheit": 2.49
+    },
+    {
+      "id": 5,
+      "produkt": "Hähnchenbrustfilet",
+      "kategorie": "Fleisch",
+      "menge": 2,
+      "einheit": "Gramm",
+      "preis_pro_einheit": 6.99
+    }
+  ]
+}
