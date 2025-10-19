@@ -9,6 +9,7 @@
   },
   "vertragsnummer":12345,
   "verkäufer": "Max",
+  
   "einkaufsliste": [
     {
       "id": 1,
